@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-image: url(https://www.retail.org.au/wp-content/uploads/Article-Preview-Image-82-1024x576.png); /* replace with your image */
+    background-size: cover;
+    padding: 40px;
+    width: 100%;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+    text-size-adjust: ;
+}
+
+.palete {
+    margin-bottom: 25px;
+}
+
+.colors {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.circle {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-left: -12px;
+    position: relative;
+
+}
+
+.blue-text { 
+    color: rgb(46, 0, 155);
+    margin-bottom: 25px;
+
+}
+.red-text {
+     color: red;
+    margin-bottom: 25px;
+
+}
+.green-text {
+     color: green;
+     margin: 25px 0;
+}
+.orange-text {
+     color:orangered;
+     margin: 25px 0;
+}
+.purple-text {
+     color:purple;
+     margin: 25px 0;
+}
+
+.blue1 {
+     background: #001f3f;
+     z-index: 1;
+ }
+
+
+.blue2 {
+     background: #003366;
+     z-index: 2;
+ }
+
+.blue3 {
+     background: #004c99;
+     z-index: 3;
+
+}
+
+.blue4 { 
+    background: #0066cc;
+     z-index: 4;
+
+ }
+
+.blue5 {
+     background: #3385ff; 
+     z-index: 5;
+
+}
+
+.blue6 { 
+    background: #66a3ff;
+     z-index: 6;
+
+ }
+
+.blue7 {
+     background: #99c2ff;
+     z-index: 7;
+
+ }
+
+.blue8 {
+     background: #cce0ff; 
+     z-index: 8;
+
+}
+
+.red1 {
+     background: #4d0000; 
+}
+.red2 { 
+    background: #800000;
+ }
+.red3 { 
+    background: #b30000; 
+}
+.red4 {
+     background: #e60000; 
+}
+.red5 {
+     background: #ff3333; 
+}
+.red6 {
+     background: #ff6666;
+ }
+.red7 {
+     background: #ff9999; 
+}
+.red8 {
+     background: #ffcccc; 
+}
+
+.green1 {
+     background: #003300; 
+}
+.green2 { 
+    background: #006600; 
+}
+.green3 {
+     background: #009900; 
+}
+.green4 {
+     background: #00cc00; 
+}
+.green5 {
+     background: #33ff33; 
+}
+.green6 {
+     background: #66ff66; 
+}
+.green7 {
+     background: #99ff99;
+}
+.green8 {
+     background: #ccffcc;
+ }
+
+
+
+
+
+.orange1 {
+     background: #CC5500; 
+}
+.orange2 { 
+    background: #C46210;
+ }
+.orange3 { 
+    background: #FF4500; 
+}
+.orange4 {
+     background: #FF5800; 
+}
+.orange5 {
+     background: #FF6700; 
+}
+.orange6 {
+     background: #F58025;
+ }
+.orange7 {
+     background: #FFAE42; 
+}
+.orange8 {
+     background: #FED8D1; 
+}
+
+
+
+.purple1 {
+     background: #66023C; 
+}
+.purple2 { 
+    background: #682860;
+ }
+.purple3 { 
+    background: #660088; 
+}
+.purple4 {
+     background: #800080; 
+}
+.purple5 {
+     background: #683FA0; 
+}
+.purple6 {
+     background: #EE82EE;
+ }
+.purple7 {
+     background: #DDA0DD; 
+}
+.purple8 {
+     background: #E6E6FA; 
+}

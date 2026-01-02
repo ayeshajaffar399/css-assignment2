@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/013/107/215/non_2x/dark-blue-background-with-golden-abstract-shapes-vector.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* CARD */
+.card {
+    display: flex;
+    background-color: #24243b;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 900px;
+    min-height: 380px;
+    overflow: hidden;
+}
+
+/* LEFT SIDE */
+.card-left {
+    background-color: #ff6a3d;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-left img {
+    width: 85%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* RIGHT SIDE */
+.card-right {
+    flex: 1.2;
+    padding: 30px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-right h1 {
+    color: #ff6a3d;
+    font-weight: bold;
+}
+
+.card-right h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.card-right .price {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.card-right .price span {
+    text-decoration: line-through;
+    color: #888;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.sizes span {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.colors {
+    margin: 20px 0;
+}
+
+.color {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.color.yellow { background-color: yellow; }
+.color.black { background-color: black; }
+.color.blue { background-color: blue; }
+
+.btn button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn button:first-child {
+    background-color: #ff6a3d;
+    color: #fff;
+}
+
+.btn button:last-child {
+    background-color:#24243b;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+/* 🔹 RESPONSIVE DESIGN */
+@media (max-width: 900px) {
+    .card {
+        max-width: 95%;
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .card-left {
+        padding: 25px 0;
+    }
+
+    .card-right {
+        padding: 20px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .sizes span,
+    .btn button {
+        margin-bottom: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card-right h1 {
+        font-size: 22px;
+    }
+
+    .card-right h2 {
+        font-size: 16px;
+    }
+
+    .price {
+        font-size: 18px;
+    }
+}
